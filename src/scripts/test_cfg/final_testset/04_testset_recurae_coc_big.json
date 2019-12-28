@@ -1,0 +1,22 @@
+{
+    "model_setup": [
+        ["103067", "recurae_depth_4"],
+        ["104703", "recurae_depth_4_cocdepth"],
+        ["105049", "recurae_depth_4_big"],
+        ["105080", "recurae_depth_4_big_cocdepth"]
+    ],
+    "model_labels": [
+        "Standard",
+        "CoC-Dec",
+        "Larger data",
+        "Larger data & CoC-Dec"
+    ],
+    "dataset_name": ["s7_5ramp"],
+    "ramp_sample_count": 1,
+    "select_focus_dists": [0.1, 0.1875, 0.275, 0.45],
+    "colormap": "viridis",
+    "resolution": [640, 480],
+    "normalize_tensors": false,
+    "single_tensor_out": true,
+    "log_img_freq": 10
+}

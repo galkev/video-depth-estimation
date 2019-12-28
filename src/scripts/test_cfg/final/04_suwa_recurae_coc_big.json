@@ -1,0 +1,21 @@
+{
+    "model_setup": [
+        ["103067", "recurae_depth_4"],
+        ["104703", "recurae_depth_4_cocdepth"],
+        ["105049", "recurae_depth_4_big"],
+        ["105080", "recurae_depth_4_big_cocdepth"]
+    ],
+    "model_labels": [
+        "Standard",
+        "CoC-Dec",
+        "Larger data",
+        "Larger data & CoC-Dec"
+    ],
+    "dataset_name": ["suwajanakorn"],
+    "fixed_frame_indices": [0, 0.33, 0.67, 1],
+    "relative_fixed_frame_indices": true,
+    "colormap": "viridis",
+    "resolution": [800, 640],
+    "normalize_tensors": true,
+    "single_tensor_out": true
+}

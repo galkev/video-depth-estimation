@@ -1,0 +1,22 @@
+{
+    "model_setup": [
+        ["103067", "recurae_depth_4"],
+        ["104703", "recurae_depth_4_cocdepth"]
+    ],
+    "model_labels": [
+        "RecurAE SmallObj",
+        "RecurAE SmallObj +CoC",
+        "RecurAE SmallObj +CoC SameDec",
+        "RecurAE Small+BigObj",
+        "RecurAE Small+BigObj + CoC"
+    ],
+    "dataset_name": ["s7_test_allinfocus"],
+    "whole_seq_out": null,
+    "fixed_frame_indices": [0, 0.33, 0.67, 1],
+    "relative_fixed_frame_indices": true,
+    "colormap": "viridis",
+    "append_cmap": true,
+    "resolution": [640, 480],
+    "log_img_freq": 1,
+    "masked_only": true
+}

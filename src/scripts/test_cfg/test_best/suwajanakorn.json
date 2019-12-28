@@ -1,0 +1,23 @@
+{
+    "model_setup": [
+        ["103067", "recurae_depth_4"],
+        ["104703", "recurae_depth_4_cocdepth"],
+        ["105049", "recurae_depth_4_big"],
+        ["105080", "recurae_depth_4_big_cocdepth"]
+    ],
+    "model_labels": [
+        "RecurAE SmallObj",
+        "RecurAE SmallObj +CoC",
+        "RecurAE Small+BigObj",
+        "RecurAE Small+BigObj + CoC"
+    ],
+    "dataset_name": ["suwajanakorn"],
+    "whole_seq_out": null,
+    "fixed_frame_indices": [0, 0.33, 0.67, 1],
+    "relative_fixed_frame_indices": true,
+    "colormap": "viridis",
+    "append_cmap": true,
+    "resolution": [800, 640],
+    "log_img_freq": 1,
+    "normalize_tensors": true
+}

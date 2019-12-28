@@ -1,0 +1,25 @@
+{
+    "model_setup": [
+        "m109375_ddffnew_do_last",
+        "m109419_ddffnew_rnn_fc_cclast",
+        "m109417_ddffnew_rnn_fc_ccconv",
+        "m109418_ddffnew_rnn_stack_cclast",
+        "m109416_ddffnew_rnn_stack_ccconv"
+    ],
+    "model_labels": [
+        "DDFF",
+        "LSTM-DDFF FC Skip-Last",
+        "LSTM-DDFF FC Skip-Conv",
+        "LSTM-DDFF Stack Skip-Last",
+        "LSTM-DDFF Stack Skip-Conv"
+    ],
+    "dataset_name": ["suwajanakorn"],
+    "whole_seq_out": null,
+    "fixed_frame_indices": [0, 0.33, 0.67, 1],
+    "relative_fixed_frame_indices": true,
+    "colormap": "viridis",
+    "append_cmap": true,
+    "resolution": [800, 640],
+    "log_img_freq": 1,
+    "normalize_tensors": true
+}

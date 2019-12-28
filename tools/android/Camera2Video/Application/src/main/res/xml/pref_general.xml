@@ -1,0 +1,53 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="autofocus"
+        android:title="Autofocus" />
+    <EditTextPreference
+        android:defaultValue="0.1"
+        android:key="foc_dist_start"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Focus Distance Start"/>
+
+    <EditTextPreference
+        android:defaultValue="1.0"
+        android:key="foc_dist_end"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Focus Distance End"/>
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/foc_time_func_entries"
+        android:entryValues="@array/foc_time_func_entry_values"
+        android:key="foc_time_func"
+        android:title="Focus Time Function" />
+
+    <EditTextPreference
+        android:defaultValue="0.3"
+        android:key="time_scale"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Time Scale"/>
+
+    <ListPreference
+        android:defaultValue="0"
+        android:key="target_fps"
+        android:title="Target FPS" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:key="target_res"
+        android:title="Resolution" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/runtime_entries"
+        android:entryValues="@array/runtime_entry_values"
+        android:key="runtime"
+        android:title="Runtime" />
+</PreferenceScreen>

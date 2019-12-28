@@ -1,0 +1,17 @@
+{
+    "model_setup": [
+        ["103079", "recurae_depth_fixed_frames"],
+        ["102891", "recurae_depth"],
+        ["101521", "recurae_depth_randsample_focdist"],
+        ["103067", "recurae_depth_4"]
+    ],
+    "model_labels": ["RecurAE skip", "RecurAE old", "RecurAE noskip FocDist", "RecurAE noskip 4"],
+    "dataset_name": ["suwajanakorn"],
+    "whole_seq_out": null,
+    "resolution": [800, 640],
+    "fixed_frame_indices": [0, 0.25, 0.5, 0.75, 1],
+    "relative_fixed_frame_indices": true,
+    "colormap": "viridis",
+    "append_cmap": true,
+    "log_img_freq": 1
+}

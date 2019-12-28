@@ -1,0 +1,22 @@
+{
+    "model_setup": [
+        ["103067", "recurae_depth_4"],
+        ["104703", "recurae_depth_4_cocdepth"]
+    ],
+    "model_labels": [
+        "RecurAE SmallObj",
+        "RecurAE SmallObj +CoC",
+        "RecurAE SmallObj +CoC SameDec",
+        "RecurAE Small+BigObj",
+        "RecurAE Small+BigObj + CoC"
+    ],
+    "dataset_name": ["s7_5ramp"],
+    "select_rel_indices": [0, 0.25, 0.5, 1],
+    "whole_seq_out": null,
+    "slide_wnd_test": null,
+    "resolution": [640, 480],
+    "colormap": "viridis",
+    "append_cmap": true,
+    "log_img_freq": 1,
+    "masked_only": true
+}

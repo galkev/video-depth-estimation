@@ -1,0 +1,23 @@
+{
+    "model_setup": [
+        "m109416_ddffnew_rnn_stack_ccconv",
+        "m111494_ddffnew_rnn_stack_ccconv_cocdepth",
+        "m111495_ddffnew_rnn_stack_ccconv_big",
+        "m111497_ddffnew_rnn_stack_ccconv_big_cocdepth"
+    ],
+    "model_labels": [
+        "Standard",
+        "CoC-Dec",
+        "Larger data",
+        "Larger data & CoC-Dec"
+    ],
+    "dataset_name": ["s7_5ramp"],
+    "ramp_sample_count": 1,
+    "select_focus_dists": [0.1, 0.1875, 0.275, 0.45],
+    "colormap": "viridis",
+    "resolution": [640, 480],
+    "normalize_tensors": false,
+    "aernn_resize_mode": "crops",
+    "single_tensor_out": true,
+    "log_img_freq": 10
+}

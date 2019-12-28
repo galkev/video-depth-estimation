@@ -1,0 +1,7 @@
+{
+    "model_setup": "cvpr_recurrecur_rgb_rgbcoc",
+    "model_id": "135966",
+    "dataset_name": "maxim",
+    "ramps_per_clip": 50,
+    "model_out_idx": 0
+}

@@ -1,0 +1,24 @@
+{
+    "model_setup": [
+        ["103067", "recurae_depth_4"],
+        ["104703", "recurae_depth_4_cocdepth"],
+        ["105049", "recurae_depth_4_big"],
+        ["105080", "recurae_depth_4_big_cocdepth"]
+    ],
+    "model_labels": [
+        "Standard",
+        "CoC-Dec",
+        "Larger data",
+        "Larger data & CoC-Dec"
+    ],
+    "dataset_name": ["s7_4ramp_real"],
+    "whole_seq_out": null,
+    "slide_wnd_test": null,
+    "resolution": [640, 480],
+    "ramp_sample_count": 5,
+    "select_focus_dists": [0.1, 0.1875, 0.3625, 0.45],
+    "colormap": "viridis",
+    "normalize_tensors": true,
+    "single_tensor_out": true,
+    "fixed_ramp_idx": [0, 1, 2, 3, 4]
+}

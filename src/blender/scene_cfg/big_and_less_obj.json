@@ -1,0 +1,15 @@
+{
+  "move_speed_range": [0.0025, 0.01],
+  "max_rot_speed": 0.02,
+  "scale_range": [0.3, 0.8],
+  "spawn_count": 10,
+  "obj_load_count": -1,
+  "tex_prop": 0.75,
+  "num_frames": 25,
+  "spawn_dist_range": [1, 3],
+  "focus_range": [1, 3],
+  "aperture_size": 0.01,
+
+  "samples": 512,
+  "resolution": [512, 512]
+}

@@ -1,0 +1,22 @@
+{
+  "move_speed_range": [0.0025, 0.0075],
+  "max_rot_speed": 0.05,
+  "scale_range": [0.1, 0.3],
+  "spawn_count": 100,
+  "obj_load_count": -1,
+  "tex_prop": 0.9,
+  "env_tex_prop": 0.5,
+  "num_frames": 25,
+  "focus_ramp_length": 5,
+  "spawn_dist_range": [0.1, 1],
+
+  "focus_range": [0.1, 0.45],
+  "f_number": 1.7,
+  "focal_length": 4.2,
+  "sensor_dim": [5.645, 4.435],
+
+  "samples": 512,
+  "resolution": [640, 480],
+
+  "use_rand_light_pos": true
+}

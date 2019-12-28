@@ -1,0 +1,17 @@
+{
+    "model_setup": [
+        ["107433", "recurae_depth_4_big_bignet"],
+        ["107438", "recurae_depth_4_randfoc_2dec"],
+        ["107468", "recurae_depth_4_randfoc_bigdata_2dec"],
+        ["107469", "recurae_depth_4_randfoc_bigdata_big_2dec"]
+    ],
+    "model_labels": null,
+    "dataset_name": ["suwajanakorn"],
+    "whole_seq_out": null,
+    "fixed_frame_indices": [0, 0.33, 0.67, 1],
+    "relative_fixed_frame_indices": true,
+    "colormap": "viridis",
+    "append_cmap": true,
+    "resolution": [800, 640],
+    "log_img_freq": 1
+}

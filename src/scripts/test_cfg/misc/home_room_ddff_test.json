@@ -1,0 +1,28 @@
+{
+    "model_setup": [
+        ["103067", "recurae_depth_4"],
+        ["104703", "recurae_depth_4_cocdepth"],
+        ["105049", "recurae_depth_4_big"],
+        ["105080", "recurae_depth_4_big_cocdepth"],
+        ["109293", "ddffhar_do_last"],
+        ["109295", "ddffhar_do_middle"]
+    ],
+    "model_labels": [
+        "RecurAE SmallObj",
+        "RecurAE SmallObj +CoC",
+        "RecurAE Small+BigObj",
+        "RecurAE Small+BigObj + CoC",
+        "DDFF Last",
+        "DDFF Middle"
+    ],
+    "dataset_name": ["s7_4ramp_real"],
+    "whole_seq_out": null,
+    "slide_wnd_test": null,
+    "resolution": [640, 480],
+    "ramp_sample_count": 5,
+    "select_focus_dists": [0.1, 0.1875, 0.3625, 0.45],
+    "colormap": "viridis",
+    "append_cmap": true,
+    "log_img_freq": 1,
+    "normalize_tensors": true
+}

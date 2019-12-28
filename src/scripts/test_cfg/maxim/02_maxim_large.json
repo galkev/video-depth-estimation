@@ -1,0 +1,6 @@
+{
+    "model_setup": "recurae_depth_4_big",
+    "model_id": "105049",
+    "dataset_name": "maxim",
+    "ramps_per_clip": 50
+}

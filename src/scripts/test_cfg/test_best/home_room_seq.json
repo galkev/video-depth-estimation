@@ -1,0 +1,25 @@
+{
+    "model_setup": [
+        ["103067", "recurae_depth_4"],
+        ["104703", "recurae_depth_4_cocdepth"],
+        ["104704", "recurae_depth_4_cocdepth_samedec"],
+        ["105049", "recurae_depth_4_big"],
+        ["105080", "recurae_depth_4_big_cocdepth"]
+    ],
+    "model_labels": [
+        "RecurAE SmallObj",
+        "RecurAE SmallObj +CoC",
+        "RecurAE SmallObj +CoC SameDec",
+        "RecurAE Small+BigObj",
+        "RecurAE Small+BigObj + CoC"
+    ],
+    "dataset_name": ["s7_4ramp_real"],
+    "whole_seq_out": ["line", "video"],
+    "slide_wnd_test": "input_split",
+    "resolution": [640, 480],
+    "ramp_sample_count": 5,
+    "select_focus_dists": [0.1, 0.1875, 0.3625, 0.45],
+    "colormap": "viridis",
+    "append_cmap": true,
+    "log_img_freq": 1
+}

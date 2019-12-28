@@ -1,0 +1,19 @@
+{
+    "model_setup": [
+        [815, "recur_ae_dummy"]
+    ],
+    "model_labels": [
+        "DDFF A",
+        "DDFF B"
+    ],
+    "dataset_name": ["s7_real_mp4"],
+    "whole_seq_out": null,
+    "slide_wnd_test": null,
+    "resolution": [640, 480],
+    "ramp_sample_count": 1,
+    "select_focus_dists": [0.1, 0.1875, 0.3625, 0.45],
+    "colormap": "viridis",
+    "normalize_tensors": true,
+    "single_tensor_out": true
+}
+

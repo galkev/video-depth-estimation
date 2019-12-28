@@ -1,0 +1,27 @@
+{
+    "model_setup": [
+        ["110196", "recurae_depth_numframetest_1"],
+        ["110195", "recurae_depth_numframetest_2"],
+        ["110193", "recurae_depth_numframetest_3"],
+        ["103067", "recurae_depth_4"],
+        ["110194", "recurae_depth_numframetest_5"]
+    ],
+    "model_labels": [
+        "1", "2", "3", "4", "4_discrete", "5"
+    ],
+    "dataset_name": ["suwajanakorn"],
+    "whole_seq_out": null,
+    "fixed_frame_indices": [
+        [1],
+        [0, 1],
+        [0, 0.5, 1],
+        [0, 0.33, 0.67, 1],
+        [0, 0.25, 0.5, 0.75, 1]
+    ],
+    "relative_fixed_frame_indices": true,
+    "colormap": "viridis",
+    "append_cmap": true,
+    "resolution": [800, 640],
+    "log_img_freq": 1,
+    "normalize_tensors": true
+}

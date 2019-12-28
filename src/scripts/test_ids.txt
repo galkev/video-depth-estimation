@@ -1,0 +1,2 @@
+91809,ddffnet_lstm_stack_scratch
+92118,poolnet_50dim_relu_bn1e4_sc4_ss2

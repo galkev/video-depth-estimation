@@ -1,0 +1,18 @@
+{
+    "model_setup": [
+        [833, "ddffnew_rnn_fc_cclast_dummy"],
+        [834, "ddffnew_rnn_stack_ccconv_cocdepth_dummy"]
+    ],
+    "model_labels": [
+        "DDFF A",
+        "DDFF B"
+    ],
+    "dataset_name": ["suwajanakorn"],
+    "fixed_frame_indices": [0, 0.33, 0.67, 1],
+    "relative_fixed_frame_indices": true,
+    "colormap": "viridis",
+    "resolution": [800, 640],
+    "normalize_tensors": true,
+    "aernn_resize_mode": "crops",
+    "single_tensor_out": true
+}

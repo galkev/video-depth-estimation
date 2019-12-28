@@ -1,0 +1,28 @@
+{
+    "model_setup": [
+        ["110196", "recurae_depth_numframetest_1"],
+        ["110195", "recurae_depth_numframetest_2"],
+        ["110193", "recurae_depth_numframetest_3"],
+        ["103067", "recurae_depth_4"],
+        ["110194", "recurae_depth_numframetest_5"]
+    ],
+    "model_labels": [
+        "1", "2", "3", "4", "5"
+    ],
+    "dataset_name": ["s7_5ramp"],
+    "whole_seq_out": null,
+    "fixed_frame_indices": [
+        [0.45],
+        [0.1, 0.45],
+        [0.1, 0.275, 0.45],
+        [0.1, 0.1875, 0.275, 0.45],
+        [0.1, 0.1875, 0.275, 0.3625, 0.45]
+    ],
+    "relative_fixed_frame_indices": true,
+    "colormap": "viridis",
+    "append_cmap": true,
+    "resolution": [640, 480],
+    "normalize_tensors": false,
+    "single_tensor_out": true,
+    "log_img_freq": 10
+}

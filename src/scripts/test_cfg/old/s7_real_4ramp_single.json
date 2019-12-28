@@ -1,0 +1,16 @@
+{
+    "model_setup": [
+        ["103079", "recurae_depth_fixed_frames"],
+        ["103079", "recurae_depth_fixed_frames_single_test"]
+    ],
+    "model_labels": ["RecurAE skip", "RecurAE skip single"],
+    "dataset_name": ["s7_4ramp_real"],
+    "whole_seq_out": ["line", "video"],
+    "slide_wnd_test": "input_split",
+    "resolution": [640, 480],
+    "ramp_sample_count": 5,
+    "select_focus_dists": [0.1, 0.1875, 0.3625, 0.45],
+    "colormap": "viridis",
+    "append_cmap": true,
+    "log_img_freq": 1
+}

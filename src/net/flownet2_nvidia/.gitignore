@@ -1,0 +1,11 @@
+*.pyc
+.torch
+_ext
+*.o
+work
+work/*
+_ext/
+
+networks/*/build
+networks/*/*.egg-info
+networks/*/dist

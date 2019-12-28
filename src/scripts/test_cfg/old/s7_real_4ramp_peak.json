@@ -1,0 +1,16 @@
+{
+    "model_setup": [
+        ["103079", "recurae_depth_fixed_frames"],
+        ["102891", "recurae_depth"],
+        ["101521", "recurae_depth_randsample_focdist"],
+        ["103067", "recurae_depth_4"]
+    ],
+    "model_labels": ["RecurAE skip", "RecurAE old", "RecurAE noskip FocDist", "RecurAE noskip 4"],
+    "dataset_name": ["s7_4ramp_real"],
+    "whole_seq_out": ["line", "video"],
+    "resolution": [640, 480],
+    "fixed_frame_indices": [3, 7, 11, 15, 19],
+    "colormap": "viridis",
+    "append_cmap": true,
+    "log_img_freq": 1
+}
